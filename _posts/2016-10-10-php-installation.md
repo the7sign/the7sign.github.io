@@ -5,6 +5,7 @@ date:   2016-10-10 00:00:00
 categories: server
 tags: php install
 comments: true
+image: /images/php-v7-logo.jpg
 ---
 
 PHP 설치 방법을 정리하겠습니다.

@@ -5,6 +5,7 @@ date:   2016-10-10 00:00:00
 categories: server
 tags: nginx install
 comments: true
+image: /images/nginx.jpeg
 ---
 
 Nginx 설치 방법을 정리하겠습니다.
@@ -73,9 +74,8 @@ rm -Rf /data/apps/nginx/conf/*.default
 mkdir /data/apps/nginx/conf/sites-available /data/apps/nginx/conf/sites-enabled
 cat /dev/null > /data/apps/nginx/conf/nginx.conf
 
-## sites-available 디렉토리에는 site config 파일을 작성해 넣고,
-sites-enabled 디렉토리에는 sites-available 디렉토리에 작성한 파일 중 실제로 서비스할 파일만 ln 명령어로 링크만 걸어두는 식으로 관리하는게 편함
-ex) ln -s /data/apps/nginx/conf/sites-available/www.example.com.conf /data/apps/nginx/conf/sites-enabled/www.example.com.conf
+ex) ln -s /data/apps/nginx/conf/sites-available/www.example.com.conf 
+/data/apps/nginx/conf/sites-enabled/www.example.com.conf
 ```
 
 ## 기본 설정 파일
@@ -125,7 +125,10 @@ http {
       gzip_vary                         on;
       gzip_comp_level                   9;
       gzip_proxied                      any;
-      gzip_types                        text/plain text/css application/json application/javascript application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+      gzip_types                        text/plain text/css application/json 
+                                        application/javascript application/x-javascript 
+                                        text/xml application/xml application/xml+rss 
+                                        text/javascript;
       gzip_buffers                      16 8k;
       gzip_disable                      "MSIE [1-6]\.(?!.*SV1)";
 

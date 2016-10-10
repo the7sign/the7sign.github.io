@@ -33,10 +33,33 @@
         -->
                 </div>
               </header>
-              {% if page.image %}
-                <a href="{{ page.url }}" class="image featured"><img src="{{page.image}}" alt="" /></a>
-              {% endif %}
-              {{ content }}
+				<div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- the7sign.github.io contents ad3 -->
+					<ins class="adsbygoogle"
+						 style="display:inline-block;width:728px;height:90px"
+						 data-ad-client="ca-pub-1165223738958847"
+						 data-ad-slot="9906468006"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
+				{% if page.image %}
+				<a href="{{ page.url }}" class="image featured"><img src="{{page.image}}" alt="" /></a>
+				{% endif %}
+
+              	{{ content }}
+				<div>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- the7sign.github.io contents ad -->
+					<ins class="adsbygoogle"
+						 style="display:inline-block;width:728px;height:90px"
+						 data-ad-client="ca-pub-1165223738958847"
+						 data-ad-slot="5755470007"></ins>
+					<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
               <footer>
                 <ul class="stats">
                 {% for tag in page.tags limit:3 %}
