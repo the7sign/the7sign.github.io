@@ -34,4 +34,4 @@ paginate: 4
 
 author: the7sign
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag]
