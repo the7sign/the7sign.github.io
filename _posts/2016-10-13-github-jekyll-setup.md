@@ -33,10 +33,10 @@ DevKit의 경우 적절한 위치에 압축을 푼다. (ex C:\RubyDevKit)
 gem install jekyll
 ```
 
-> **Note**
-> - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)
-> - 설치중에 위의 메시지처럼 SSL인증 오류가 발생하는 케이스가 있는데 이럴때는 아래와 같은 형태로 install 작업을 진행한다.
-> - gem install jekyll --source http://rubygems.org
+> **Note**  
+> - SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://api.rubygems.org/specs.4.8.gz)  
+> - 설치중에 위의 메시지처럼 SSL인증 오류가 발생하는 케이스가 있는데 이럴때는 아래와 같은 형태로 install 작업을 진행한다.  
+> - gem install jekyll --source http://rubygems.org  
 
 페이징용으로 아래의 gem도 추가 설치 한다.
 ``` bash

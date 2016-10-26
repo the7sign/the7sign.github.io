@@ -117,11 +117,11 @@ local2.notice -/var/log/haproxy-status.log;Haproxy
 ### keep logs in localhost ##
 local2.* ~
 ```
-> 로그관련 주의사항
-> - log파일 경로를 /var/log 이외의 경로로 지정은 가능하나 머신별로 /var/log 이외에 로그가 생성되지 않는 경우가 있었습니다. 
-> - /var/log에 생성후 링크 파일로 가지고 오는 것을 권장 합니다.
+> **로그관련 주의사항**  
+> - log파일 경로를 /var/log 이외의 경로로 지정은 가능하나 머신별로 /var/log 이외에 로그가 생성되지 않는 경우가 있었습니다.     
+> - /var/log에 생성후 링크 파일로 가지고 오는 것을 권장 합니다.  
 
-rsyslog 재시작
+# rsyslog 재시작
 ``` bash
 /etc/init.d/rsyslog restart
 ```
