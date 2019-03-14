@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MariaDB Installation"
+title:  "GitBook 설치 방법"
 date:   2016-10-24 00:00:00
 categories: server
 tags: git gitbook install
