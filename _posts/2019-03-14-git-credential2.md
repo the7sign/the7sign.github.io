@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Git 사용자 인증 문제 (비밀번호 변경등)"
-date:   2016-10-26 00:00:00
+date:   2019-03-14 18:16:00
 categories: git
 tags: git credential
 comments: true
