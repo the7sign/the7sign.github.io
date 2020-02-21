@@ -13,9 +13,8 @@ Git를 사용중에 인증하는 계정이 삭제 되게나 변경되게 되면 
 
 ## Credential Remove
 
-``` bash
+```git
 git credential-manager uninstall
-
 ```
 실행하면 아래와 같이 메시지가 나오면서 초기화 된다.
 
